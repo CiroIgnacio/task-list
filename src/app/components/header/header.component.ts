@@ -14,4 +14,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  togleAddTask(){
+    console.log("toggleAddTask");
+  }
 }
